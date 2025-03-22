@@ -26,7 +26,7 @@ const Footer = () => {
           </div>
           <div className="mt-4 flex gap-4">
             <a
-              href="sms:+919876543210"
+              href="sms:+919927956481"
               className="bg-blue-600 px-4 py-2 rounded-md hover:bg-blue-600 flex items-center gap-2"
             >
               Send SMS

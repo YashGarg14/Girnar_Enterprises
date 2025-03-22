@@ -26,7 +26,7 @@ const Home = () => {
                 <img
                   src={coal.image}
                   alt={coal.name}
-                  className="w-full h-40 object-cover mx-auto"
+                  className="w-full md:h-60 h-48 object-cover mx-auto"
                 />
                 <h2 className="text-xl font-semibold mt-2">{coal.name}</h2>
                 <p className="text-gray-600">{coal.pricePerTonne} per tonne</p>

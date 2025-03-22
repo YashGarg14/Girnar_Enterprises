@@ -1,59 +1,64 @@
 const coalData = [
-    {
+  {
       id: "usa-steam-coal",
       name: "USA Steam Coal",
-      image: "/images/usa-coal.jpg",
-      pricePerTonne: "$150",
-      minOrderQuantity: "50 tonnes",
+      image: "/images/usa_steam_coal.jpg",
+      pricePerTonne: "₹11900",
+      minOrderQuantity: "42 tonnes",
       description: "High-quality steam coal sourced from USA mines.",
       specifications: {
-        grade: "A",
-        usage: "Power Generation",
-        packaging: "Bulk",
-        type: "Bituminous",
-        color: "Black",
-        purity: "95%",
-        moisture: "8%",
-        form: "Lumps"
+          grade: "A",
+          gcv: "7000+",
+          usage: "Power Generation/Boilers/Furnaces/Kilns",
+          packaging: "Loose",
+          size: "0-50mm",
+          color: "Black",
+          purity: "95%",
+          moisture: "7%",
+          fixedCarbon: "49%",
+          sulphur: "Below 4%",
+          form: "Solid"
       }
-    },
-    {
-      id: "indonesian-coal-1",
-      name: "Indonesian Coal",
-      image: "/images/indonesia-coal.jpg",
-      pricePerTonne: "$120",
-      minOrderQuantity: "100 tonnes",
-      description: "Indonesian coal with high calorific value.",
+  },
+  {
+      id: "indonesian-coal-high",
+      name: "Indonesian Coal High CV",
+      image: "/images/indonesian-high-coal.jpg",
+      pricePerTonne: "₹8100",
+      minOrderQuantity: "42 tonnes",
+      description: "Indonesian coal with high calorific value. Prices and specifications may vary vessel-wise, contact for latest information.",
       specifications: {
-        grade: "B",
-        usage: "Industrial",
-        packaging: "Bags",
-        type: "Sub-bituminous",
-        color: "Dark Brown",
-        purity: "90%",
-        moisture: "12%",
-        form: "Powder"
+          grade: "B",
+          garValue: "5000+",
+          usage: "Boilers",
+          packaging: "Loose",
+          purity: "90%",
+          ash: "5%",
+          moisture: "13%",
+          sulphur: "0.75%",
+          fixedCarbon: "43%",
+          form: "Solid"
       }
-    },
-    {
+  },
+  {
       id: "indonesian-coal-2",
-      name: "South African Coal",
-      image: "/images/south-africa-coal.jpg",
-      pricePerTonne: "$140",
-      minOrderQuantity: "75 tonnes",
-      description: "Premium South African coal for multiple applications.",
+      name: "Indonesian Coal Medium GCV",
+      image: "/images/indonesian-medium-coal.jpg",
+      pricePerTonne: "₹7200",
+      minOrderQuantity: "42 tonnes",
+      description: "Medium GCV Indonesian Coal for Boiler application. Prices and specifications may vary vessel-wise, contact for latest information.",
       specifications: {
-        grade: "A+",
-        usage: "Cement, Power",
-        packaging: "Bulk",
-        type: "Anthracite",
-        color: "Black",
-        purity: "98%",
-        moisture: "5%",
-        form: "Pellets"
+          grade: "B-",
+          garValue: "4200+",
+          usage: "Boilers",
+          packaging: "Bulk-Loose",
+          color: "Black",
+          purity: "90%",
+          moisture: "18%",
+          sulphur: "Below 1%",
+          size: "0-50mm"
       }
-    }
-  ];
-  
-  export default coalData;
-  
+  }
+];
+
+export default coalData;
