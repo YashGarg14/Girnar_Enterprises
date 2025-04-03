@@ -21,7 +21,7 @@ const coalData = [
       }
   },
   {
-      id: "indonesian-coal-high",
+      id: "indonesian-coal-1",
       name: "Indonesian Coal High CV",
       image: "/images/indonesian-high-coal.jpg",
       pricePerTonne: "₹8100",
