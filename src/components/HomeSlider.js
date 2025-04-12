@@ -24,7 +24,7 @@ const HomeSlider = () => {
     <div className="flex flex-col md:flex-row-reverse items-center justify-between md:mx-2 md:my-4">
       {/* Image Slider Section */}
       <div className="w-full md:w-3/5 overflow-hidden shadow-lg">
-        <div className="relative w-full h-[450px] sm:h-[500px] md:h-auto md:max-h-[500px] rounded-md overflow-hidden">
+        <div className="relative w-full h-[400px] sm:h-[500px] md:h-auto md:max-h-[500px] rounded-md overflow-hidden">
           <motion.div
             className="flex w-full h-full"
             animate={{ x: `-${index * 100}%` }}
@@ -35,7 +35,7 @@ const HomeSlider = () => {
                 key={i}
                 src={src}
                 alt={`Slide ${i + 1}`}
-                className="w-full h-full object-cover flex-shrink-0 rounded-md
+                className="w-full h-[400px] object-cover flex-shrink-0 rounded-md
                 md:h-auto md:w-full md:object-contain md:aspect-[4/3]"
               />
             ))}

@@ -16,7 +16,8 @@ const Home = () => {
       <div style={styles.container}>
         <HomeSlider />
         <div className="container mx-auto p-6">
-          <h1 className="text-3xl font-bold text-left mb-6">Our Products</h1>
+          <h1 className="text-2xl md:text-3xl text-left">Products <span className="font-bold">We Deal In</span></h1>
+          <div className="w-[225px] md:w-[278px] h-[2px] bg-blue-600 mb-6" />
           <div className="grid md:grid-cols-3 gap-6">
             {coalData.map((coal) => (
               <div
@@ -24,7 +25,7 @@ const Home = () => {
                 className="border p-4 rounded-lg shadow-lg text-center"
               >
                 <img
-                  src={coal.image}
+                  src={coal.imageGallery[0]}
                   alt={coal.name}
                   className="w-full md:h-60 h-48 object-cover mx-auto"
                 />
