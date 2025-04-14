@@ -90,6 +90,11 @@ const Footer = () => {
                 Indonesian Coal - Medium GCV
               </Link>
             </li>
+            <li className="hover:text-gray-400">
+              <Link to="/product/amlai-domestic-coal">
+                Amlai Domestic Coal
+              </Link>
+            </li>
           </ul>
         </div>
       </div>

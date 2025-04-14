@@ -12,7 +12,7 @@ const Products = () => {
           {coalData.map((coal) => (
             <div key={coal.id} className="border p-4 rounded-lg shadow-lg">
               <img
-                src={coal.image}
+                src={coal.imageGallery[0]}
                 alt={coal.name}
                 className="w-full h-40 object-cover"
               />

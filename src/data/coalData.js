@@ -2,11 +2,7 @@ const coalData = [
   {
     id: "usa-steam-coal",
     name: "USA Steam Coal",
-    //   image: "/images/usa_steam_coal.jpg",
-    imageGallery: [
-      "/images/usa_steam_coal.jpg",
-      "/images/usa_steam_coal1.jpg",
-    ],
+    imageGallery: ["/images/usa_steam_coal.jpg", "/images/usa_steam_coal1.jpg"],
     pricePerTonne: "₹11900",
     minOrderQuantity: "42 tonnes",
     description: "High-quality steam coal sourced from USA mines.",
@@ -67,6 +63,28 @@ const coalData = [
       color: "Black",
       purity: "90%",
       moisture: "18%",
+      sulphur: "Below 1%",
+      size: "0-50mm",
+    },
+  },
+  {
+    id: "amlai-domestic-coal",
+    name: "Amlai Domestic Coal",
+    imageGallery: [
+      "/images/amlai1.jpg",
+      "/images/amlai2.jpg",
+    ],
+    pricePerTonne: "₹6400",
+    minOrderQuantity: "42 tonnes",
+    description:
+      "Medium GCV Amlai Coal for Boiler application. Prices and specifications may vary, contact for latest information.",
+    specifications: {
+      grade: "B",
+      gcv: "5000",
+      usage: "Boilers",
+      packaging: "Bulk-Loose",
+      color: "Black",
+      purity: "92%",
       sulphur: "Below 1%",
       size: "0-50mm",
     },

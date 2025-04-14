@@ -97,6 +97,12 @@ const Navbar = () => {
                   >
                     Indonesian Coal - Medium GCV
                   </Link>
+                  <Link
+                    to="/product/amlai-domestic-coal"
+                    className="block px-4 py-2 text-gray-700 hover:bg-gray-100"
+                  >
+                    Amlai Domestic Coal
+                  </Link>
                 </div>
               )}
             </div>
@@ -189,6 +195,14 @@ const Navbar = () => {
                   >
                     Indonesian Coal - Medium GCV
                   </Link>
+                  <Link
+                    to="/product/amlai-domestic-coal"
+                    className="block py-2 text-gray-700 hover:bg-gray-100"
+                    onClick={() => setMenuOpen(false)}
+                  >
+                    Amlai Domestic Coal
+                  </Link>
+                 
                 </div>
               )}
             </div>
