@@ -2,6 +2,7 @@ import React, { lazy, Suspense } from "react";
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 import Navbar from "./components/Navbar";
 import ScrollToTop from "./components/ScrollToTop";
+import { Analytics } from "@vercel/analytics/react"
 
 // Lazy loading components
 const Home = lazy(() => import("./pages/Home"));
@@ -18,6 +19,7 @@ const App = () => {
     >
       <Router>
         <Navbar />
+        <Analytics />
         <ScrollToTop />
         <Suspense
           fallback={<div className="text-center text-lg p-5">Loading...</div>}
